@@ -1,9 +1,7 @@
-
-
 body {
     margin: 0;
     height: 99vh;
-    width: 99vw;
+    width: 100vw;
 }
 
 nav {
@@ -27,6 +25,35 @@ nav {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 .nav-logo {
     width: 10%;
+}
+
+.presentation {
+    display: flex;
+    height: 85%;
+    background-color: rgb(147, 130, 92);
+}
+
+.text-and-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-and-button > h3 {
+    font-size: 500%;
+}
+
+.text-and-button > p {
+    font-size: 130%;
+}
+
+.presentation > img {
+    height: 75%;
+    padding: 5% 5% 0 5%;
 }
